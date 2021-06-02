@@ -32,7 +32,7 @@ $ python manage.py runserver
 
 * Environmental variables provided in the .env file for specific environment settings (staging, secret-key production, etc).
 
-* This rest microservice list the languages used by the 100 trending public repos on GitHub.
+* This rest microservice provides information for the languages used by the 100 trending public repos on GitHub 30 days before now.
 
 * For each language you have:
   * Number of repositries using the language.
