@@ -1,4 +1,5 @@
-settings.py
 *.sqlite3
 Pipfile
 migrations
+*.vscode
+.env
