@@ -3,3 +3,4 @@ Pipfile
 migrations
 *.vscode
 .env
+readme.md
