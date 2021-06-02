@@ -7,7 +7,7 @@ import requests
 
     
 @api_view(['GET'])
-def trending(request):
+def trending_repos(request):
     
     last_30_days = timezone.now() - timezone.timedelta(days=30)
 

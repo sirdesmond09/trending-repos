@@ -31,11 +31,11 @@ SECRET_KEY = env('SECRET')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 if getpass.getuser() == env('PC_NAME'):
-    DEBUG = env('DEBUG_STAGING')
+    DEBUG = int(env('DEBUG_STAGING'))
     ALLOWED_HOSTS = ['localhost', '127.0.0.1' ]
 
 else:
-    DEBUG = env('DEBUG_PRODUCTION')
+    DEBUG = int(env('DEBUG_PRODUCTION'))
 
     ALLOWED_HOSTS = ['*']
 

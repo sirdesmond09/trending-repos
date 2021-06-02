@@ -2,4 +2,4 @@
 Pipfile
 migrations
 *.vscode
-
+*.pyc
